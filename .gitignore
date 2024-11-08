@@ -1,5 +1,8 @@
 # Custom ignore
 .DS_Store
+.gitattributes
+.csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
