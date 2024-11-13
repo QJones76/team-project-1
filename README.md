@@ -41,4 +41,6 @@ Ultimatly, crime was affected by the pandemic, and while our analysis scratched 
 - We used all three of these matplotlib documentation: [matplotlib.pyplot.subplots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html), [Separate calculation and plotting of boxplots](https://matplotlib.org/stable/gallery/statistics/bxp.html#sphx-glr-gallery-statistics-bxp-py), and [matplotlib.axes.Axes.bxp](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.bxp.html#matplotlib.axes.Axes.bxp), as well as, [Chat GPT](https://chatgpt.com/) to both understand how to create and display boxplots on the datasets time periods.
 - [W3schools](https://www.w3schools.com/python/ref_func_zip.asp) and the [Python documentation](https://docs.python.org/3/library/functions.html#zip) in association with [Chat GPT](https://chatgpt.com/) were all used to figure out how to correctly implement the zip function in python for our plotting loops.
 - [This](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html) in association with [Chat GPT](https://chatgpt.com/) was used to help us position our chart's legends in a more readable position.
+
  
+
