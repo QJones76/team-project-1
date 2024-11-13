@@ -1,7 +1,6 @@
 # Custom ignore
 .DS_Store
-.gitattributes
-.csv
+*.csv
 
 
 # Byte-compiled / optimized / DLL files
