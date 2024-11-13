@@ -4,7 +4,7 @@ In this project, we took a crime dataset for all crimes in Chicago from 2001 to 
 ---
 
 ### Preparing the Data
-We got our dataset from the [data.gov](https://data.gov/), which gave us the Chicago crime dataset found [here](https://catalog.data.gov/dataset/crimes-2001-to-present). Furthermore, [here](https://drive.google.com/drive/folders/1ZCfgfvfEzVo_4WvWrI68Wil6KQ-bgP5C?usp=drive_link) is a link with our large csv files. 
+We got our dataset from the [data.gov](https://data.gov/), which gave us the Chicago crime dataset found [here](https://catalog.data.gov/dataset/crimes-2001-to-present). Furthermore, [here](https://drive.google.com/drive/folders/1ZCfgfvfEzVo_4WvWrI68Wil6KQ-bgP5C?usp=drive_link) is a link to a google drive folder with our large csv files. 
 
 ###### Step 1: Filtering down the data
 We started by filtering out all rows that don't fit in our time frame. We wanted at least the same amount of data before the pandemic in coparision to the duration of the pandemic. Roughly, we were looking at least 3 years before the pandemic. Thus we filtered out all rows before 2016 and exported it to a filtered csv file
