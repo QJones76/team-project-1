@@ -27,8 +27,8 @@ We then took our filtered data set and removed about 31,000 rows containing null
     - Furthermore, arrests went down across all the major categories of crime.
     - While crime seems to be on the rise after the pandemic period, arrest have remained more stagnant  
 - Did the pandemic have a geolocation effect to where crime occures in the city? 
-    - While ultimately, crime did go down, it doesn't seem like the pandemic affected the geolocation of where crimes will occur in the city. We can see this demonstrated in the charts named "Chicago_All_Crimes_Hotspots_Before_Pandemic" and "Chicago_All_Crimes_Hotspots_During_Pandemic" found in the Data_viz_output folder. The hotspots still clump together in the same general area. 
-    - Furthermore, we can look at the "Chicago_All_Crimes_Hotspots_During_Pandemic" chart and see that the same clumping patterns appear even with a smaller time frame. 
+    - While ultimately, crime did go down, it didn't visulaly seem like the pandemic affected the geolocation of where crimes will occur in the city. 
+    - However, when doing a deeper analysis on the numbers, we can see that there are new hotspot blocks that are popping up. We can see this in the "Chicago_All_Crimes_Hotspots" before, during, and after charts, which plot common and unique blocks across all three periods. Yet, without all the post-pandemic data, it is hard to tell whether this shift that the pandemic had will be perminate. 
 
 ### Final Conclusions
 Ultimatly, crime was affected by the pandemic, and while our analysis scratched the surface of interpretable outcomes, we still think that there could be a lot more done to find more concrete results of the exact factors of the pandemic that affected crime in the city of Chicago. 
