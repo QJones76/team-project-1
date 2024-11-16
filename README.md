@@ -10,25 +10,25 @@ We got our dataset from the [data.gov](https://data.gov/), which gave us the Chi
 We started by filtering out all rows that don't fit in our time frame. We wanted at least the same amount of data before the pandemic in coparision to the duration of the pandemic. Roughly, we were looking at least 3 years before the pandemic. Thus we filtered out all rows before 2016 and exported it to a filtered csv file
 
 ###### Step 2: Cleaning the data
-We then took our filtered data set and removed about 31,000 rows containing null values. While that might seem like a lot, it was only about 1.5% of our dataset. We also filled in 7800 null values in a single column with the word "Unknown" due to the fact that the column is an extra descriptor of another column. At the end of this porcess, we have a cleaned dataset that we then exported to a csv file for analysis. 
+We then took our filtered data set and removed about 31,000 rows containing null values. While that might seem like a lot, it was only about 1.5% of our dataset. We also filled in 7800 null values in a single column with the word "Unknown" due to the fact that the column is an extra descriptor of another column. At the end of this process, we have a cleaned dataset that we then exported to a csv file for analysis. 
 
 ---
 
 ### Our Analysis
 
 - Was crime affected by the pandemic?
-    - Crime went down during the beginning pandemic. We can see this in the 'Yearly_Crime_Incidents' chart which shows that crime went down by over 50,000 total incidents in the year 2020. Furthermore, in 2021 the toal incident count dropped about 3,000 more than the year before. It is only in 2022 that we see crime start to return to pre-pandemic numbers.
-    - We can see this being futher demonstrated by the 'Incident_Counts_by_Pandemic_Period' chart which shows almost 100,000 less cases during the pandemic period than before, and the after pandemic period, which is a little less than half the same amount of time for the other time periods, has about half of what the pre-pandemic period has. This means that crime is increasing again because it has roughly half the amount of incidents with half the amount of time. However, more analysis would need to be done to actually predict if cime will reach pre-pandemic numbers. 
+    - Crime went down during the beginning pandemic. We can see this in the 'Yearly_Crime_Incidents' chart which shows that crime went down by over 50,000 total incidents in the year 2020. Furthermore, in 2021 the total incident count dropped about 3,000 more than the year before. It is only in 2022 that we see crime start to return to pre-pandemic numbers.
+    - We can see this being further demonstrated by the 'Incident_Counts_by_Pandemic_Period' chart which shows almost 100,000 less cases during the pandemic period than before, and the after pandemic period, which is a little less than half the same amount of time for the other time periods, has about half of what the pre-pandemic period has. This means that crime is increasing again because it has roughly half the amount of incidents with half the amount of time. However, more analysis would need to be done to actually predict if crime will reach pre-pandemic numbers. 
 - Did seasons affect crimes in Chicago?
-    - When analyzing the monthly crime incidents over the entire time period, we notice these consistent bumps in the data. The way the bumps were positions in the data made us think that there is a seasonality component that effects when crime is commited.
-    - This is proven with the Seasonality_Component chart. There is a slight increase in total for crimes in the summer and a slight decrease in total crimes commited in the winter.
+    - When analyzing the monthly crime incidents over the entire time period, we notice these consistent bumps in the data. The way the bumps were positions in the data made us think that there is a seasonality component that effects when crime is committed.
+    - This is proven with the Seasonality_Component chart. There is a slight increase in total for crimes in the summer and a slight decrease in total crimes committed in the winter.
  - Did arrest rates get altered over the course of the pandemic?
     - Another component of crime is the arrest rates. We noticed that the number of arrests went down significantly since the pandemic. We can see this in the "Arrests_Over_Time" chart.
     - Furthermore, arrests went down across all the major categories of crime.
     - While crime seems to be on the rise after the pandemic period, arrest have remained more stagnant  
-- Did the pandemic have a geolocation effect to where crime occures in the city? 
-    - While ultimately, crime did go down, it didn't visulaly seem like the pandemic affected the geolocation of where crimes will occur in the city. 
-    - However, when doing a deeper analysis on the numbers, we can see that there are new hotspot blocks that are popping up. We can see this in the "Chicago_All_Crimes_Hotspots" before, during, and after charts, which plot common and unique blocks across all three periods. Yet, without all the post-pandemic data, it is hard to tell whether this shift that the pandemic had will be perminate. 
+- Did the pandemic have a geolocation effect to where crime occurs in the city? 
+    - While ultimately, crime did go down, it didn't visually seem like the pandemic affected the geolocation of where crimes will occur in the city. 
+    - However, when doing a deeper analysis on the numbers, we can see that there are new hotspot blocks that are popping up. We can see this in the "Chicago_All_Crimes_Hotspots" before, during, and after charts, which plot common and unique blocks across all three periods. Yet, without all the post-pandemic data, it is hard to tell whether this shift that the pandemic had will be permanent. 
 
 ### Final Conclusions
 Ultimatly, crime was affected by the pandemic, and while our analysis scratched the surface of interpretable outcomes, we still think that there could be a lot more done to find more concrete results of the exact factors of the pandemic that affected crime in the city of Chicago. 
@@ -43,6 +43,3 @@ Ultimatly, crime was affected by the pandemic, and while our analysis scratched 
 - We used [W3schools](https://www.w3schools.com/python/ref_set_intersection.asp) in association with [Chat GPT](https://chatgpt.com/) to understand how set and intersection can work to find similar values across sets.
 - In a similar fashion, we used [W3schools](https://www.w3schools.com/python/ref_set_union.asp) to understand how set and union can work to find unique values across sets. 
 - We used [this](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.transform.html) in association with [Chat GPT](https://chatgpt.com/) to transform and count values in our datframes for later plotting
-
- 
-
